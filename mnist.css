@@ -1,0 +1,162 @@
+                                                                                
+body {
+    background-color: #00b5e2;
+}
+
+
+
+
+       
+
+block_container {
+
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 40pt;
+    font-family: arial;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30pt;
+    font-family: arial;
+    color: black;
+    text-align: center;
+}
+
+.styled {
+border: 0;
+line-height: 2.5;
+padding: 0 20px;
+font-size: 1rem;
+text-align: center;
+color: #fff;
+text-shadow: 1px 1px 1px #000;
+border-radius: 10px;
+background-color: rgba(220, 0, 0, 1);
+background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.new_styled {
+border: 0;
+line-height: 1.5;
+padding: 0 20px;
+font-size: 1rem;
+text-align: center;
+color: 'black';
+border-radius: 10px;
+background-color: 'rgba(220, 1, 1, 1)';
+background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+input[type="text"] {
+      border-radius:5px;
+      -moz-border-radius:5px;
+      -webkit-border-radius:5px;
+}
+textarea {
+  background-image: linear-gradient(#F1F1F1 50%, #F9F9F9 50%);
+  background-size: 100% 1rem;
+  border: 1px solid #CCC;
+  width: 100%;
+  height: 400px;
+  line-height: 1rem;
+  margin: 0 auto;
+  padding: 4px 8px;
+}
+
+input[type="text"]{
+      border-radius:5px;
+      -moz-border-radius:5px;
+      -webkit-border-radius:5px;
+    }
+
+.selection {
+  font-size : 18px;
+}
+.mark-special-selected,
+.selection{
+  background : rgba(173, 216, 130, 0.9);
+  border-radius:5px;
+      -moz-border-radius:5px;
+      -webkit-border-radius:5px;
+  outline: 2px;
+}
+.limit{
+    width:50px;
+    word-wrap: break-word;
+        overflow-wrap: break-word;
+	{word-break: break-all; }
+
+}
+#canvas-container {
+   width: 100%;
+ //   height: auto;
+   text-align:center;
+}
+canvas {
+ //   width: 100%;
+  //  height: auto;
+   display: inline;
+}
+//canvas {
+//   display: inline;
+//}
+.row{
+    display: flex
+}
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+ //   display: block;
+ //   width: 800px;
+}
+/* canvas {
+      max-width: 400px;
+      margin: 20px auto;
+      cursor: crosshair;
+    }
+*/
+    progress {
+      width: 70%;         /* Ancho de la barra */
+      height: 30px;        /* Altura de la barra */
+      border-radius: 15px; /* Bordes redondeados */
+      background-color: #ffffff; /* Color de fondo */
+      //background-color: 'white'; /* Color de fondo */
+      box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2); /* Sombra interna */
+      overflow: hidden;    /* Asegurar que los bordes redondeados funcionen correctamente */
+    }
+
+    /* Estilizar la parte "rellena" de la barra (Webkit - Chrome, Safari, etc.) */
+    progress::-webkit-progress-value {
+      background: linear-gradient(90deg, #ff0000, #ff9900, #ffff00, #00ff00, #00ffff, #0000ff, #800080);
+      border-radius: 15px; /* Asegurar que los bordes también sean redondeados */
+    }
+
+    /* Estilizar la parte "rellena" de la barra (Mozilla - Firefox) */
+    progress::-moz-progress-bar {
+      background: linear-gradient(90deg, #ff0000, #ff9900, #ffff00, #00ff00, #00ffff, #0000ff, #800080);
+      border-radius: 15px;
+    }
+
+    /* Estilizar la parte "rellena" de la barra (Microsoft Edge) */
+    progress::-ms-fill {
+      background: linear-gradient(90deg, #ff0000, #ff9900, #ffff00, #00ff00, #00ffff, #0000ff, #800080);
+      border-radius: 15px;
+    }
