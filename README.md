@@ -7,7 +7,7 @@ This is an example of supervised machine learning. It illustrates the use of dee
 - Open the file index.html with any web browser
 
 
-## Online Dmo
+## Online Demo
 
 https://ciiec.buap.mx/MNIST
 
